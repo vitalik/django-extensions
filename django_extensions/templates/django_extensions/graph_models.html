@@ -1,0 +1,9 @@
+{% load i18n %}
+<html>
+<head>
+</head>
+<body>
+<form style="float: left;"><table>{{ form }}</table><input type="submit" value="{% trans "Apply" %}"></form>
+<img src="./?{{ request.GET.urlencode }}&image=1">
+</body>
+</html>
